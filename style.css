@@ -22,3 +22,30 @@ padding-bottom: 5px;
     position: sticky;
     top: 0;
 }
+.nav-links li{
+    display: inline-block;
+}
+
+#HomeContent{
+    background: #ff00dd;
+}
+
+#AboutContent{
+    background: #775f43;
+}
+
+#ContactsContent{
+    background: #547743;
+}
+
+#GameDesignContent{
+    background: #5b26ee;
+}
+
+#LevelDesignContent{
+    background: #0daad1;
+}
+
+#ResumeContent{
+    background: #9b1e95;
+}
