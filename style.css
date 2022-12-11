@@ -1,4 +1,4 @@
-/*General*/
+                                    /* ~General/Header~ */
 html {
     background: #e3e3e3;
 }
@@ -93,8 +93,8 @@ h3{
 }
 */
 
-/*Page-specific stylization*/
-/*home page*/
+                                    /*Page-specific stylization*/
+                                            /* ~home page~ */
 #HomeContent{
     
     
@@ -153,13 +153,13 @@ h3{
 }
 
 
-        /*bio page*/
+                                             /* ~bio page~ */
 #AboutContent{
     background: #775f43;
 }
 
 
-        /*GD page*/
+                                             /* ~GD page~ */
 #GameDesignContent{
     
 }
@@ -172,6 +172,7 @@ h3{
 #GameDesignContent h4{
     text-align: center;
 }
+/*________________________________________GD_Bunker_Down*/
 #GD_Bunker_Down{
     background: rgb(221, 159, 159);
     border-bottom: dotted;
@@ -214,7 +215,7 @@ h3{
     max-width: 750px;
     max-height: 350px;
 }
-/**/
+/*______________________________________GD_Mission Demolition*/
 
 #GD_Mission_Demolition{
     background: rgb(221, 159, 159);
@@ -261,7 +262,7 @@ h3{
     max-height: 350px;
 }
 
-/**/
+/*__________________________________________GD_Donkey Kong*/
 #GD_Donkey_Kong{
     background: rgb(221, 159, 159);
     border-bottom: dotted;
@@ -308,15 +309,23 @@ h3{
 }
 
 
-
-
-        /*LD page*/
+                                            /* ~LD page~ */
 #LevelDesignContent{
     background: #0daad1;
 }
+/*__________________________________________LD_Hammer*/
 
 
-        /*resume page*/
+/*__________________________________________LD_3PLE*/
+
+
+/*_________________________________________LD_Portal_2*/
+
+
+/*_______________________________________LD_Dungeon_Delver*/
+
+
+                                            /* ~resume page~ */
 #ResumeContent{
     background: #9b1e95;
 }
