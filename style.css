@@ -10,7 +10,8 @@ padding: 40px;
 color: #242424;
 border-top: 10px solid #242424;
 background: white;
-padding-bottom: 5px;
+padding-bottom: 30px;
+
 }
 
 header{
@@ -81,6 +82,7 @@ h2{
    
     font-size: 45px;
     text-align: center;
+    
 }
 
 /*
@@ -156,14 +158,164 @@ h3{
     background: #775f43;
 }
 
+
         /*GD page*/
 #GameDesignContent{
-    background: #5b26ee;
+    
 }
+#GameDesignContent li{
+    padding-bottom: 10px;
+}
+#GameDesignContent h3{
+    text-align: center;
+}
+#GameDesignContent h4{
+    text-align: center;
+}
+#GD_Bunker_Down{
+    background: rgb(221, 159, 159);
+    border-bottom: dotted;
+}
+#Bunker_Down_Grid_Container{
+    background: rgb(138, 69, 202);
+    max-height: 800px;
+    display: grid;
+    
+    grid-template-rows: 1fr 1fr;
+    margin: 0 auto;
+}
+#Bunker_Down_Images{
+    background: green;
+    grid-column: 1/2;
+    display: grid;
+    
+    grid-template-rows: 1fr 1fr;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+#BD1Image{
+    grid-row: 1;
+    
+}
+#BD2Image{
+    padding-top: 20px;
+    grid-row: 2;
+}
+#Bunker_Down_Images img{
+    height: 350px;
+    margin: 0 auto;
+}
+#GD_Bunker_Down_Responsibilities{
+    background: rgb(109, 109, 230);
+    grid-column: 2/2;
+    margin: 0 auto;
+    
+    max-width: 750px;
+    max-height: 350px;
+}
+/**/
+
+#GD_Mission_Demolition{
+    background: rgb(221, 159, 159);
+    border-bottom: dotted;
+}
+#Mission_Demolition_Grid_Container{
+    background: rgb(138, 69, 202);
+    max-height: 800px;
+    display: grid;
+    
+    grid-template-rows: 1fr 1fr;
+    margin: 0 auto;
+}
+#Mission_Demolition_Images{
+    background: green;
+    grid-column: 1/2;
+    display: grid;
+    
+    grid-template-rows: 1fr 1fr;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+#MD1Image{
+    grid-row: 1;
+    
+}
+#MD2Image{
+    padding-top: 20px;
+    grid-row: 2;
+}
+
+#Mission_Demolition_Images img{
+    height: 350px;
+    margin: 0 auto;
+}
+
+#GD_Mission_Demolition_Responsibilities{
+    background: rgb(109, 109, 230);
+    grid-column: 2/2;
+    margin: 0 auto;
+    
+    max-width: 750px;
+    max-height: 350px;
+}
+
+/**/
+#GD_Donkey_Kong{
+    background: rgb(221, 159, 159);
+    border-bottom: dotted;
+}
+#Donkey_Kong_Grid_Container{
+    background: rgb(138, 69, 202);
+    max-height: 800px;
+    display: grid;
+    
+    grid-template-rows: 1fr 1fr;
+    margin: 0 auto;
+}
+#Donkey_Kong_Images{
+    background: green;
+    grid-column: 1/2;
+    display: grid;
+    
+    grid-template-rows: 1fr 1fr;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+#DK1Image{
+    grid-row: 1;
+    
+}
+#DK2Image{
+    padding-top: 20px;
+    grid-row: 2;
+}
+
+#Donkey_Kong_Images img{
+    height: 350px;
+    margin: 0 auto;
+}
+
+#GD_Donkey_Kong_Responsibilities{
+    background: rgb(109, 109, 230);
+    grid-column: 2/2;
+    margin: 0 auto;
+    
+    max-width: 750px;
+    max-height: 350px;
+}
+
+
+
+
         /*LD page*/
 #LevelDesignContent{
     background: #0daad1;
 }
+
+
         /*resume page*/
 #ResumeContent{
     background: #9b1e95;
