@@ -79,10 +79,8 @@ h1{
 
 
 h2{
-   
     font-size: 45px;
     text-align: center;
-    
 }
 
 /* Page Footer*/
@@ -93,22 +91,19 @@ h2{
 
                                     /*Page-specific stylization*/
                                             /* ~home page~ */
-#HomeContent{
-    
-    
+#HomeContent img{
+    border: 3px solid #242424;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 
 
 
 #ImageGridContainer{
-    
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 500px 500px 500px;
     margin: 0 auto;
     margin-bottom: 10px;
-    
-    
 }
 
 #ImageGridContainer img{
@@ -155,7 +150,7 @@ h2{
 
                                              /* ~bio page~ */
 #AboutContent{
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 #Bio_Grid_Container{
     display: grid;
@@ -165,15 +160,23 @@ h2{
     grid-column: 1/2;
     height: 500px;
     margin: 0 auto;
+    border: 3px solid #242424;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 
 }
-Bio_Text{
+#Bio_Text p{
     grid-column: 2/2;
+    max-width: 750px;
+}
+#Bio_Text p{
+    padding-top: 0px;
+    line-height: 25px;
 }
 
                                              /* ~GD page~ */
-#GameDesignContent{
-    
+#GameDesignContent img{
+    border: 3px solid #242424;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 #GameDesignContent li{
     padding-bottom: 20px;
@@ -181,7 +184,6 @@ Bio_Text{
 #GameDesignContent h3{
     text-align: center;
     font-size: 35px;
-    
 }
 #GameDesignContent h4{
     text-align: center;
@@ -189,6 +191,7 @@ Bio_Text{
     margin-top: -30px;
     margin-bottom: 15px;
 }
+
 /*________________________________________GD_Bunker_Down*/
 #GD_Bunker_Down{
     border-top: dotted;
@@ -205,15 +208,15 @@ Bio_Text{
     grid-column: 1/2;
     display: grid;
     grid-template-rows: 1fr 1fr;
-    padding-top: 10px;
+    grid-template-rows: 400px 360px;
+    margin-top: 10px;
     padding-bottom: 10px;
-
 }
 #BD1Image{
     grid-row: 1;
 }
 #BD2Image{
-    padding-top: 20px;
+    margin-top: 20px;
     grid-row: 2;
 }
 #Bunker_Down_Images img{
@@ -242,6 +245,7 @@ Bio_Text{
     margin: 0 auto;
     margin-top: 25px;
 }
+
 /*______________________________________GD_Mission Demolition*/
 
 #GD_Mission_Demolition{
@@ -260,7 +264,6 @@ Bio_Text{
     grid-template-rows: 1fr 1fr;
     padding-top: 10px;
     padding-bottom: 10px;
-
 }
 #MD1Image{
     grid-row: 1;
@@ -296,6 +299,7 @@ Bio_Text{
     height: 350px;
     margin: 0 auto;
 }
+
 /*__________________________________________GD_Donkey Kong*/
 #GD_Donkey_Kong{
     border-bottom: dotted;
@@ -311,15 +315,17 @@ Bio_Text{
     grid-column: 1/2;
     display: grid;
     grid-template-rows: 1fr 1fr;
+    grid-template-rows: 400px 360px;
     padding-top: 10px;
     padding-bottom: 10px;
 
 }
 #DK1Image{
     grid-row: 1;
+    margin-bottom: 20px;
 }
 #DK2Image{
-    padding-top: 20px;
+    margin-top: 20px;
     grid-row: 2;
 }
 #Donkey_Kong_Images img{
@@ -352,8 +358,9 @@ Bio_Text{
 
                                             /* ~LD page~ */
 
-#LevelDesignContent{
-    
+#LevelDesignContent img{
+    border: 3px solid #242424;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 #LevelDesignContent li{
     padding-bottom: 20px;
@@ -361,7 +368,6 @@ Bio_Text{
 #LevelDesignContent h3{
     text-align: center;
     font-size: 35px;
-    
 }
 #LevelDesignContent h4{
     text-align: center;
@@ -377,7 +383,7 @@ Bio_Text{
     border-bottom: dotted;
 }
 #Hammer_Grid_Container{
-    max-height: 750px;
+    max-height: 800px;
     display: grid;
     grid-template-rows: 1fr 1fr;
     margin: 0 auto;
@@ -387,9 +393,9 @@ Bio_Text{
     grid-column: 1/2;
     display: grid;
     grid-template-rows: 1fr 1fr;
+    grid-template-rows: 400px 360px;
     padding-top: 10px;
     padding-bottom: 10px;
-
 }
 #Hammer1Image{
     grid-row: 1;
@@ -407,7 +413,6 @@ Bio_Text{
     display: grid;
     grid-template-rows: 1fr 1fr;
     margin: 0 auto;
-
 }
 #LD_Hammer_Responsibilities{
     grid-row: 1;
@@ -424,10 +429,9 @@ Bio_Text{
     grid-row: 2;
     height: 350px;
     margin: 0 auto;
-    margin-top: 0px;
+    margin-top: 3px;
     padding-bottom: 20px;
 }
-
 
 /*__________________________________________LD_3PLE*/
 
@@ -436,7 +440,7 @@ Bio_Text{
     border-bottom: dotted;
 }
 #_3PLE_Grid_Container{
-    max-height: 750px;
+    max-height: 800px;
     display: grid;
     grid-template-rows: 1fr 1fr;
     margin: 0 auto;
@@ -446,15 +450,15 @@ Bio_Text{
     grid-column: 1/2;
     display: grid;
     grid-template-rows: 1fr 1fr;
+    grid-template-rows: 400px 360px;
     padding-top: 10px;
     padding-bottom: 10px;
-
 }
 #_3PLE1Image{
     grid-row: 1;
 }
 #_3PLE2Image{
-    padding-top: 20px;
+    margin-top: 20px;
     grid-row: 2;
 }
 #_3PLE_Images img{
@@ -492,7 +496,7 @@ Bio_Text{
     border-bottom: dotted;
 }
 #Portal_2_Grid_Container{
-    max-height: 775px;
+    max-height: 800px;
     display: grid;
     grid-template-rows: 1fr 1fr;
     margin: 0 auto;
@@ -538,8 +542,6 @@ Bio_Text{
     grid-row: 2;
     height: 450px;
     margin: 0 auto;
-    
-    
 }
 
 /*_______________________________________LD_Dungeon_Delver*/
@@ -549,7 +551,7 @@ Bio_Text{
     border-bottom: dotted;
 }
 #Dungeon_Delver_Grid_Container{
-    max-height: 750px;
+    max-height: 800px;
     display: grid;
     grid-template-rows: 1fr 1fr;
     margin: 0 auto;
@@ -559,15 +561,15 @@ Bio_Text{
     grid-column: 1/2;
     display: grid;
     grid-template-rows: 1fr 1fr;
+    grid-template-rows: 400px 360px;
     padding-top: 10px;
     padding-bottom: 10px;
-
 }
 #Dungeon_Delver_1Image{
     grid-row: 1;
 }
 #Dungeon_Delver_2Image{
-    padding-top: 20px;
+    margin-top: 20px;
     grid-row: 2;
 }
 #Dungeon_Delver_Images img{
@@ -605,4 +607,571 @@ Bio_Text{
 }
 #resume{
     margin: 0 auto;
+}
+
+
+                            /* ~~~Resizing the content for half-width page(1650px)~~~ */
+
+
+#test-scale{
+    width: 1650px;
+    background: purple;
+}
+
+@media (max-width: 1650px) {
+                                            /* ~Header 1650~ */
+header{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 80px; 
+}
+
+h1{
+    grid-column: 1/2;
+    grid-row: 1;
+    padding-left: 100px;
+    padding-top: -10px;
+    font-size: 40px;
+}
+h2{
+    font-size: 30px;
+    text-align: center;
+}
+
+/* Contact Info Section*/
+.contacts{
+    list-style-type: none;
+    grid-column: 2/2;
+    grid-row: 1;
+    margin-left: -30px;
+}
+.contacts li{
+    width: 50px;
+    display: inline-block;
+    padding: 10px 10px;
+}
+
+.contacts img{
+    width: 100%;
+}
+
+.avatar img {
+    width: 60px;
+    border-radius: 50%; 
+    margin-top: -10px;
+    margin-left: 0px;
+    margin-right: 20px;
+}
+
+
+                                            /* ~Home Page 1650~ */
+    #HomeContent img{
+        border: 3px solid #242424;
+        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    }
+    
+    #ImageGridContainer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 400px 400px 400px;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+    
+    #ImageGridContainer img{
+        width: 500px;
+    }
+    
+    #Gameplay1{
+        grid-column: 1/2;
+        grid-row: 1;
+        margin: 0 auto;
+    }
+    #Gameplay2{
+        grid-column: 2/2;
+        grid-row: 1;
+        margin: 0 auto;
+    }
+    #Gameplay3{
+        grid-column: 1/2;
+        grid-row: 2;
+        margin: 0 auto;
+    }
+    #Gameplay4{
+        grid-column: 2/2;
+        grid-row: 2;
+        margin: 0 auto;
+    }
+    #Gameplay5{
+        grid-column: 1/2;
+        grid-row: 3;
+        margin: 0 auto;
+    }
+    #Gameplay6{
+        grid-column: 2/2;
+        grid-row: 3;
+        margin: 0 auto;
+        padding-top: 10px;
+    }
+    #Gameplay7{
+        grid-column: 1/2;
+        grid-row: 4;
+        margin: 0 auto;
+    }
+
+                                                 /* ~bio page 1650~ */
+#AboutContent{
+    margin-bottom: 30px;
+}
+#Bio_Grid_Container{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+}
+#Bio_Image{
+    grid-column: 1/2;
+    height: 500px;
+    margin: 0 auto;
+    border: 3px solid #242424;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    margin-top: 80px;
+}
+#Bio_Text p{
+    grid-column: 2/2;
+    max-width: 500px;
+    margin-left: 40px; 
+}
+#Bio_Text p{
+    padding-top: 0px;
+    line-height: 25px;
+}
+
+                                             /* ~GD page 1650~ */
+#GameDesignContent img{
+    border: 3px solid #242424;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+#GameDesignContent li{
+    padding-bottom: 20px;
+}
+#GameDesignContent h3{
+    text-align: center;
+    font-size: 35px;
+}
+#GameDesignContent h4{
+    text-align: center;
+    font-size: 15px;
+    margin-top: -30px;
+    margin-bottom: 15px;
+}
+
+/*________________________________________GD_Bunker_Down*/
+#GD_Bunker_Down{
+    border-top: dotted;
+    border-bottom: dotted;
+}
+#Bunker_Down_Grid_Container{
+    max-height: 650px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+#Bunker_Down_Images{
+    grid-column: 1/2;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 300px 260px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+#BD1Image{
+    grid-row: 1;
+}
+#BD2Image{
+    margin-top: 20px;
+    grid-row: 2;
+}
+#Bunker_Down_Images img{
+    height: 250px;
+    margin: 0 auto;
+}
+#Bunker_Down_Grid_Container_Responsibilities{
+    grid-column: 2/2;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin: 0 auto;
+}
+#GD_Bunker_Down_Responsibilities{
+    grid-row: 1;
+    margin: 0 auto;
+    max-width: 500px;
+}
+#GD_Bunker_Down_Responsibilities h5{
+    font-size: 20px;
+    text-align: center;
+}
+#BD3Image{
+    grid-row: 2;
+    height: 250px;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+/*______________________________________GD_Mission Demolition*/
+
+#GD_Mission_Demolition{
+    border-bottom: dotted;
+}
+#Mission_Demolition_Grid_Container{
+    max-height: 650px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+#Mission_Demolition_Images{
+    grid-column: 1/2;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 300px 260px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#MD1Image{
+    grid-row: 1;
+}
+#MD2Image{
+    padding-top: 20px;
+    grid-row: 2;
+}
+#Mission_Demolition_Images img{
+    height: 250px;
+    margin: 0 auto;
+}
+#Mission_Demolition_Grid_Container_Responsibilities{
+    grid-column: 2/2;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+#GD_Mission_Demolition_Responsibilities{
+    grid-row: 2;
+    margin: 0 auto;
+    max-width: 500px;
+    max-height: 350px;
+    margin-top: 30px;
+}
+#GD_Mission_Demolition_Responsibilities h5{
+    font-size: 20px;
+    text-align: center;
+}
+#MD3Image{
+    grid-row: 1;
+    height: 250px;
+    margin: 0 auto;
+}
+
+/*__________________________________________GD_Donkey Kong*/
+#GD_Donkey_Kong{
+    border-bottom: dotted;
+}
+#Donkey_Kong_Grid_Container{
+    max-height: 650px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+#Donkey_Kong_Images{
+    grid-column: 1/2;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 350px 260px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+#DK1Image{
+    grid-row: 1;
+    margin-bottom: 20px;
+}
+#DK2Image{
+    margin-top: 20px;
+    grid-row: 2;
+}
+#Donkey_Kong_Images img{
+    height: 250px;
+    margin: 0 auto;
+}
+#Donkey_Kong_Grid_Container_Responsibilities{
+    grid-column: 2/2;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin: 0 auto;
+}
+#GD_Donkey_Kong_Responsibilities{
+    grid-row: 1;
+    margin: 0 auto;
+    max-width: 500px;
+    max-height: 350px;
+    margin-top: -10px;
+}
+#GD_Donkey_Kong_Responsibilities h5{
+    font-size: 20px;
+    text-align: center;
+}
+#DK3Image{
+    grid-row: 2;
+    height: 250px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+                                            /* ~LD page 1650~ */
+
+#LevelDesignContent img{
+    border: 3px solid #242424;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+#LevelDesignContent li{
+    padding-bottom: 20px;
+}
+#LevelDesignContent h3{
+    text-align: center;
+    font-size: 35px;
+}
+#LevelDesignContent h4{
+    text-align: center;
+    font-size: 15px;
+    margin-top: -30px;
+    margin-bottom: 15px;
+}
+
+/*__________________________________________LD_Hammer*/
+
+#LD_Hammer{
+    border-top: dotted;
+    border-bottom: dotted;
+}
+#Hammer_Grid_Container{
+    max-height: 650px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+#Hammer_Images{
+    grid-column: 1/2;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 345px 260px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#Hammer1Image{
+    grid-row: 1;
+}
+#Hammer2Image{
+    padding-top: 20px;
+    grid-row: 2;
+}
+#Hammer_Images img{
+    height: 250px;
+    margin: 0 auto;
+}
+#Hammer_Grid_Container_Responsibilities{
+    grid-column: 2/2;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin: 0 auto;
+    
+}
+#LD_Hammer_Responsibilities{
+    grid-row: 1;
+    margin: 0 auto;
+    max-width: 750px;
+    max-height: 350px;
+    padding-top: 0px;
+    max-width: 500px;
+}
+#LD_Hammer_Responsibilities h5{
+    font-size: 20px;
+    text-align: center;
+}
+#Hammer3Image{
+    grid-row: 2;
+    height: 250px;
+    margin: 0 auto;
+    margin-top: 3px;
+    padding-bottom: 20px;
+}
+
+/*__________________________________________LD_3PLE*/
+
+#LD_3PLE{
+    border-top: dotted;
+    border-bottom: dotted;
+}
+#_3PLE_Grid_Container{
+    max-height: 650px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+#_3PLE_Images{
+    grid-column: 1/2;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 300px 260px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#_3PLE1Image{
+    grid-row: 1;
+}
+#_3PLE2Image{
+    margin-top: 20px;
+    grid-row: 2;
+}
+#_3PLE_Images img{
+    height: 250px;
+    margin: 0 auto;
+}
+#_3PLE_Grid_Container_Responsibilities{
+    grid-column: 2/2;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin: 0 auto;
+}
+#LD_3PLE_Responsibilities{
+    grid-row: 2;
+    margin: 0 auto;
+    max-width: 500px;
+    max-height: 350px;
+    margin-top: -20px;
+}
+#LD_3PLE_Responsibilities h5{
+    font-size: 20px;
+    text-align: center;
+}
+#_3PLE3Image{
+    grid-row:1;
+    height: 250px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+/*_________________________________________LD_Portal_2*/
+
+#LD_Portal_2{
+    border-top: dotted;
+    border-bottom: dotted;
+}
+#Portal_2_Grid_Container{
+    max-height: 700px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+#Portal_2_Images{
+    grid-column: 1/2;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 350px 260px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#Portal_2_1Image{
+    grid-row: 1;
+}
+#Portal_2_2Image{
+    padding-top: 0px;
+    grid-row: 2;
+}
+#Portal_2_Images img{
+    height: 250px;
+    margin: 0 auto;
+}
+#Portal_2_Grid_Container_Responsibilities{
+    grid-column: 2/2;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin: 0 auto;
+    margin-top: -150px;
+}
+#LD_Portal_2_Responsibilities{
+    grid-row: 1;
+    margin: 0 auto;
+    max-width: 500px;
+    max-height: 350px;
+    margin-top: 150px;
+}
+#LD_Portal_2_Responsibilities h5{
+    font-size: 20px;
+    text-align: center;
+}
+#Portal_2_3Image{
+    grid-row: 2;
+    height: 325px;
+    margin: 0 auto;
+}
+
+/*_______________________________________LD_Dungeon_Delver*/
+
+#LD_Dungeon_Delver{
+    border-top: dotted;
+    border-bottom: dotted;
+}
+#Dungeon_Delver_Grid_Container{
+    max-height: 650px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin: 0 auto;
+    margin-bottom: 0px;
+}
+#Dungeon_Delver_Images{
+    grid-column: 1/2;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 300px 260px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#Dungeon_Delver_1Image{
+    grid-row: 1;
+}
+#Dungeon_Delver_2Image{
+    margin-top: 20px;
+    grid-row: 2;
+}
+#Dungeon_Delver_Images img{
+    height: 250px;
+    margin: 0 auto;
+}
+#Dungeon_Delver_Grid_Container_Responsibilities{
+    grid-column: 2/2;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin: 0 auto;
+}
+#LD_Dungeon_Delver_Responsibilities{
+    grid-row: 2;
+    margin: 0 auto;
+    max-width: 500px;
+    max-height: 350px;
+    padding-top: 15px;
+}
+#LD_Dungeon_Delver_Responsibilities h5{
+    font-size: 20px;
+    text-align: center;
+}
+#Dungeon_Delver_3Image{
+    grid-row: 1;
+    height: 250px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
 }
