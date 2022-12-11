@@ -5,14 +5,52 @@ html {
 
 body {
 font-family: Arial, Helvetica, sans-serif;
-margin: 50 auto;
+margin: 10px 50px;
 padding: 40px;
 color: #242424;
 border-top: 10px solid #242424;
 background: white;
 padding-bottom: 5px;
-
 }
+
+header{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 120px; 
+}
+
+h1{
+    grid-column: 1/2;
+    grid-row: 1;
+    padding-left: 150px;
+    padding-top: -10px;
+    font-size: 60px;
+}
+
+/* Contact Info Section*/
+.contacts{
+    list-style-type: none;
+    grid-column: 2/2;
+    grid-row: 1;
+}
+.contacts li{
+    width: 70px;
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+.contacts img{
+    width: 100%;
+}
+
+.avatar img {
+    width: 70px;
+    border-radius: 50%; 
+    margin-top: 15px;
+    margin-left: 0px;
+    margin-right: 20px;
+}
+
 
 /*Navigation*/
 .stickynav{
@@ -24,61 +62,109 @@ padding-bottom: 5px;
     position: sticky;
     top: 0;
     margin-bottom: 10px;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
-
 .nav-links{
     margin: 0 auto;
     padding: 0;
     list-style-type: none;
 }
-
 .nav-links li{
     display: inline-block;
     padding: 0px 15px; 
 }
 
-/*Page-specific stylization*/
-#HomeContent{
-    background: #ff00dd;
+
+h2{
+   
+    font-size: 45px;
+    text-align: center;
 }
 
+/*
+h3{
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 45px;
+}
+*/
+
+/*Page-specific stylization*/
+/*home page*/
+#HomeContent{
+    
+    
+}
+
+
+
+#ImageGridContainer{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 500px 500px 500px;
+    margin: 0 auto;
+    
+    
+}
+
+#ImageGridContainer img{
+    width: 700px;
+}
+
+#Gameplay1{
+    grid-column: 1/2;
+    grid-row: 1;
+    margin: 0 auto;
+}
+#Gameplay2{
+    grid-column: 2/2;
+    grid-row: 1;
+    margin: 0 auto;
+}
+#Gameplay3{
+    grid-column: 1/2;
+    grid-row: 2;
+    margin: 0 auto;
+}
+#Gameplay4{
+    grid-column: 2/2;
+    grid-row: 2;
+    margin: 0 auto;
+}
+#Gameplay5{
+    grid-column: 1/2;
+    grid-row: 3;
+    margin: 0 auto;
+}
+#Gameplay6{
+    grid-column: 2/2;
+    grid-row: 3;
+    margin: 0 auto;
+}
+#Gameplay7{
+    grid-column: 1/2;
+    grid-row: 4;
+    margin: 0 auto;
+}
+
+
+        /*bio page*/
 #AboutContent{
     background: #775f43;
 }
 
-#ContactsContent{
-    background: #547743;
-}
-
+        /*GD page*/
 #GameDesignContent{
     background: #5b26ee;
 }
-
+        /*LD page*/
 #LevelDesignContent{
     background: #0daad1;
 }
-
+        /*resume page*/
 #ResumeContent{
     background: #9b1e95;
-}
-
-/* Contact Info Section*/
-.contacts{
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-}
-
-.contacts li{
-    width: 30px;
-    display: inline-block;
-    padding: 20px 10px;
-}
-
-.contacts img{
-    width: 100%;
-}
-
-#avatar{
-    width: 50px;
 }
