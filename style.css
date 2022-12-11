@@ -339,20 +339,252 @@ h3{
 
 
                                             /* ~LD page~ */
+
 #LevelDesignContent{
-    background: #0daad1;
+    
 }
+#LevelDesignContent li{
+    padding-bottom: 20px;
+}
+#LevelDesignContent h3{
+    text-align: center;
+    font-size: 35px;
+    
+}
+#LevelDesignContent h4{
+    text-align: center;
+    font-size: 15px;
+    margin-top: -30px;
+    margin-bottom: 15px;
+}
+
 /*__________________________________________LD_Hammer*/
+
+#LD_Hammer{
+    border-top: dotted;
+    border-bottom: dotted;
+}
+#Hammer_Grid_Container{
+    max-height: 750px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+#Hammer_Images{
+    grid-column: 1/2;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+#Hammer1Image{
+    grid-row: 1;
+}
+#Hammer2Image{
+    padding-top: 20px;
+    grid-row: 2;
+}
+#Hammer_Images img{
+    height: 350px;
+    margin: 0 auto;
+}
+#Hammer_Grid_Container_Responsibilities{
+    grid-column: 2/2;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin: 0 auto;
+
+}
+#LD_Hammer_Responsibilities{
+    grid-row: 1;
+    margin: 0 auto;
+    max-width: 750px;
+    max-height: 350px;
+    padding-top: 30px;
+}
+#LD_Hammer_Responsibilities h5{
+    font-size: 20px;
+    text-align: center;
+}
+#Hammer3Image{
+    grid-row: 2;
+    height: 350px;
+    margin: 0 auto;
+    margin-top: 0px;
+    padding-bottom: 20px;
+}
 
 
 /*__________________________________________LD_3PLE*/
 
+#LD_3PLE{
+    border-top: dotted;
+    border-bottom: dotted;
+}
+#_3PLE_Grid_Container{
+    max-height: 750px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+#_3PLE_Images{
+    grid-column: 1/2;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+#_3PLE1Image{
+    grid-row: 1;
+}
+#_3PLE2Image{
+    padding-top: 20px;
+    grid-row: 2;
+}
+#_3PLE_Images img{
+    height: 350px;
+    margin: 0 auto;
+}
+#_3PLE_Grid_Container_Responsibilities{
+    grid-column: 2/2;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin: 0 auto;
+}
+#LD_3PLE_Responsibilities{
+    grid-row: 2;
+    margin: 0 auto;
+    max-width: 750px;
+    max-height: 350px;
+    padding-top: 40px;
+}
+#LD_3PLE_Responsibilities h5{
+    font-size: 20px;
+    text-align: center;
+}
+#_3PLE3Image{
+    grid-row:1;
+    height: 350px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
 
 /*_________________________________________LD_Portal_2*/
 
+#LD_Portal_2{
+    border-top: dotted;
+    border-bottom: dotted;
+}
+#Portal_2_Grid_Container{
+    max-height: 775px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+#Portal_2_Images{
+    grid-column: 1/2;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#Portal_2_1Image{
+    grid-row: 1;
+}
+#Portal_2_2Image{
+    padding-top: 0px;
+    grid-row: 2;
+}
+#Portal_2_Images img{
+    height: 350px;
+    margin: 0 auto;
+}
+#Portal_2_Grid_Container_Responsibilities{
+    grid-column: 2/2;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin: 0 auto;
+    margin-top: -150px;
+}
+#LD_Portal_2_Responsibilities{
+    grid-row: 1;
+    margin: 0 auto;
+    max-width: 750px;
+    max-height: 350px;
+    margin-top: 200px;
+}
+#LD_Portal_2_Responsibilities h5{
+    font-size: 20px;
+    text-align: center;
+}
+#Portal_2_3Image{
+    grid-row: 2;
+    height: 450px;
+    margin: 0 auto;
+    
+    
+}
 
 /*_______________________________________LD_Dungeon_Delver*/
 
+#LD_Dungeon_Delver{
+    border-top: dotted;
+    border-bottom: dotted;
+}
+#Dungeon_Delver_Grid_Container{
+    max-height: 750px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+#Dungeon_Delver_Images{
+    grid-column: 1/2;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+#Dungeon_Delver_1Image{
+    grid-row: 1;
+}
+#Dungeon_Delver_2Image{
+    padding-top: 20px;
+    grid-row: 2;
+}
+#Dungeon_Delver_Images img{
+    height: 350px;
+    margin: 0 auto;
+}
+#Dungeon_Delver_Grid_Container_Responsibilities{
+    grid-column: 2/2;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin: 0 auto;
+}
+#LD_Dungeon_Delver_Responsibilities{
+    grid-row: 2;
+    margin: 0 auto;
+    max-width: 750px;
+    max-height: 350px;
+    padding-top: 30px;
+}
+#LD_Dungeon_Delver_Responsibilities h5{
+    font-size: 20px;
+    text-align: center;
+}
+#Dungeon_Delver_3Image{
+    grid-row: 1;
+    height: 350px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
 
                                             /* ~resume page~ */
 #ResumeContent{
