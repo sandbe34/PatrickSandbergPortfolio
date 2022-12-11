@@ -600,5 +600,9 @@ Bio_Text{
 
                                             /* ~resume page~ */
 #ResumeContent{
-    background: #9b1e95;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+#resume{
+    margin: 0 auto;
 }
