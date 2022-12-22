@@ -618,7 +618,8 @@ h2{
 header{
     display: grid;
     grid-template-columns: 70% 30%;
-    grid-template-rows: 80px; 
+    grid-template-rows: 70px; 
+    margin-top: -5px;
 }
 
 h1{
@@ -1178,7 +1179,8 @@ h2{
 header{
     display: grid;
     grid-template-columns: 70% 30%;
-    grid-template-rows: 80px; 
+    grid-template-rows: 70px; 
+    margin-top: -10px;
 }
 
 h1{
@@ -1294,7 +1296,7 @@ h2{
 }
 #Bio_Text p{
     grid-column: 2/2;
-    max-width: 375px;
+    max-width: 320px;
     margin-left: 40px; 
 }
 #Bio_Text p{
@@ -1762,5 +1764,679 @@ h2{
     margin: 0 auto;
     
     width: 700px;
+}
+}
+
+@media (max-width: 825px)
+{
+                                                /* ~Header 825~ */
+html{
+    min-width: 600px;
+}
+header{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 80px; 
+    margin-top: -20px;
+}
+
+h1{
+    grid-column: 1/2;
+    grid-row: 1;
+    padding-left: 3px;
+    padding-top: -10px;
+    font-size: 19px;
+    min-width: 500px; 
+}
+h2{
+    font-size: 18px;
+    text-align: center;
+}
+
+/*Navigation*/
+.stickynav{
+    background: #e3e3e3;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    margin-bottom: 10px;
+    margin-top: -20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.nav-links{
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+    font-size: 12px;
+}
+.nav-links li{
+    display: inline-block;
+    padding: 0px 5px; 
+}
+
+
+/* Page Footer*/
+.Page_Tag{
+    text-align: end;
+    border-top: dotted;
+    font-size: 12px;
+}
+
+/* Contact Info Section*/
+.contacts{
+    list-style-type: none;
+    grid-column: 2/2;
+    grid-row: 1;
+    margin-left: -40px;
+    min-width: 200px;
+  
+}
+.contacts li{
+    width: 28px;
+    display: inline-block;
+    padding: 5px 1px;
+}
+
+.contacts img{
+    width: 100%;
+}
+
+.avatar img {
+    width: 40px;
+    border-radius: 50%; 
+    margin-top: -15px;
+    margin-left: -10px;
+    margin-right: 10px;
+}
+
+
+                                            /* ~Home Page 825~ */
+#HomeContent img{
+    border: 3px solid #242424;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+#ImageGridContainer{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 275px 275px 275px 275px 275px 275px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+#ImageGridContainer img{
+    width: 375px;
+}
+
+#Gameplay1{
+    grid-column: 1/1;
+    grid-row: 1;
+    margin: 0 auto;
+}
+#Gameplay2{
+    grid-column: 1/1;
+    grid-row: 2;
+    margin: 0 auto;
+}
+#Gameplay3{
+    grid-column: 1/1;
+    grid-row: 3;
+    margin: 0 auto;
+}
+#Gameplay4{
+    grid-column: 1/1;
+    grid-row: 4;
+    margin: 0 auto;
+}
+#Gameplay5{
+    grid-column: 1/1;
+    grid-row: 5;
+    margin: 0 auto;
+}
+#Gameplay6{
+    grid-column: 1/1;
+    grid-row: 6;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+#Gameplay7{
+    grid-column: 1/1;
+    grid-row: 7;
+    margin: 0 auto;
+}
+
+                                                 /* ~bio page 825~ */
+#AboutContent{
+    margin-bottom: 30px;
+}
+#Bio_Grid_Container{
+    display: grid;
+    grid-template-rows: 250px 630px;
+    grid-template-columns: 1fr;
+}
+#Bio_Image{
+    grid-column: 1/1;
+    grid-row: 1;
+    height: 250px;
+    margin: 0 auto;
+    border: 3px solid #242424;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 5px 70px 4px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+#Bio_Text {
+    margin-top: 20px;
+}
+#Bio_Text p{
+    grid-column: 1/1;
+    grid-row: 2;
+    max-width: 350px;
+    margin: 0 auto;
+    margin-top: 10px;
+    line-height: 17px;
+    font-size: 15px;
+}
+
+                                             /* ~GD page 825~ */
+#GameDesignContent img{
+    border: 3px solid #242424;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+#GameDesignContent li{
+    padding-bottom: 20px;
+}
+#GameDesignContent h3{
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+#GameDesignContent h4{
+    text-align: center;
+    font-size: 10px;
+    margin-top: -15px;
+    margin-bottom: 10px;
+}
+
+/*________________________________________GD_Bunker_Down*/
+#GD_Bunker_Down{
+    border-top: dotted;
+    border-bottom: dotted;
+}
+#Bunker_Down_Grid_Container{
+    max-height: 1200px;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-rows: 470px 550px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+#Bunker_Down_Images{
+    grid-column: 1/1;
+    grid-row: 1;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 240px 260px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+#BD1Image{
+    grid-row: 1;
+}
+#BD2Image{
+    margin-top: 20px;
+    grid-row: 2;
+}
+#Bunker_Down_Images img{
+    height: 200px;
+    margin: 0 auto;
+}
+#Bunker_Down_Grid_Container_Responsibilities{
+    grid-column: 1/1;
+    grid-row: 2;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin: 0 auto;
+}
+#GD_Bunker_Down_Responsibilities{
+    grid-row: 2;
+    margin: 0 auto;
+    max-width: 350px;
+}
+#GD_Bunker_Down_Responsibilities h5{
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+#GD_Bunker_Down_Responsibilities li{
+    font-size: 15px;
+}
+#BD3Image{
+    grid-row: 1;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+/*______________________________________GD_Mission Demolition*/
+
+#GD_Mission_Demolition{
+    border-bottom: dotted;
+}
+#Mission_Demolition_Grid_Container{
+    max-height: 1200px;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-rows: 490px 500px;
+    margin: 0 auto;
+    margin-bottom: -20px;
+}
+#Mission_Demolition_Images{
+    grid-column: 1/1;
+    grid-row: 1;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 240px 260px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#MD1Image{
+    grid-row: 1;
+}
+#MD2Image{
+    
+    grid-row: 2;
+}
+#Mission_Demolition_Images img{
+    height: 200px;
+    margin: 0 auto;
+}
+#Mission_Demolition_Grid_Container_Responsibilities{
+    grid-column: 1/1;
+    grid-row: 2;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin: 0 auto;
+    margin-top: 5px;
+
+
+}
+#GD_Mission_Demolition_Responsibilities{
+    grid-row: 2;
+    margin: 0 auto;
+    max-width: 350px;
+    max-height: 350px;
+    margin-top: -50px;
+}
+#GD_Mission_Demolition_Responsibilities h5{
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 00px;
+    margin-top: 35px;
+}
+#GD_Mission_Demolition_Responsibilities li{
+    font-size: 15px;
+}
+#MD3Image{
+    grid-row: 1;
+    height: 200px;
+    margin: 0 auto;
+    
+}
+
+/*__________________________________________GD_Donkey Kong*/
+#GD_Donkey_Kong{
+    border-bottom: dotted;
+}
+#Donkey_Kong_Grid_Container{
+    max-height: 1300px;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-rows: 470px 650px;
+    margin: 0 auto;
+    margin-bottom: -10px;
+}
+#Donkey_Kong_Images{
+    grid-column: 1/1;
+    grid-row: 1;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 240px 260px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+#DK1Image{
+    grid-row: 1;
+    margin-bottom: 20px;
+}
+#DK2Image{
+    margin-top: 20px;
+    grid-row: 2;
+}
+#Donkey_Kong_Images img{
+    height: 200px;
+    margin: 0 auto;
+}
+#Donkey_Kong_Grid_Container_Responsibilities{
+    grid-column: 1/1;
+    grid-row: 2;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin: 0 auto;
+}
+#GD_Donkey_Kong_Responsibilities{
+    grid-row: 2;
+    margin: 0 auto;
+    max-width: 350px;
+    max-height: 350px;
+    margin-top: -10px;
+}
+#GD_Donkey_Kong_Responsibilities h5{
+    font-size: 18px;
+    text-align: center;
+    margin-top: -40px;
+}
+#GD_Donkey_Kong_Responsibilities li{
+    font-size: 15px;
+}
+#DK3Image{
+    grid-row: 1;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+                                            /* ~LD page 825~ */
+
+#LevelDesignContent img{
+    border: 3px solid #242424;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+#LevelDesignContent li{
+    padding-bottom: 20px;
+}
+#LevelDesignContent h3{
+    text-align: center;
+    font-size: 15px;
+}
+#LevelDesignContent h4{
+    text-align: center;
+    font-size: 10px;
+    margin-top: -10px;
+    margin-bottom: 15px;
+}
+
+/*__________________________________________LD_Hammer*/
+
+#LD_Hammer{
+    border-top: dotted;
+    border-bottom: dotted;
+}
+#Hammer_Grid_Container{
+    max-height: 1200px;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-rows: 490px 600px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+#Hammer_Images{
+    grid-column: 1/1;
+    grid-row: 1;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 240px 260px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#Hammer1Image{
+    grid-row: 1;
+}
+#Hammer2Image{
+    padding-top: 20px;
+    grid-row: 2;
+}
+#Hammer_Images img{
+    height: 200px;
+    margin: 0 auto;
+}
+#Hammer_Grid_Container_Responsibilities{
+    grid-column: 1/1;
+    grid-row: 2;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin: 0 auto;
+    
+}
+#LD_Hammer_Responsibilities{
+    grid-row: 2;
+    margin: 0 auto;
+
+    max-height: 350px;
+    padding-top: 10px;
+    max-width: 350px;
+}
+#LD_Hammer_Responsibilities h5{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+}
+#LD_Hammer_Responsibilities li{
+    font-size: 15px;
+    
+}
+#Hammer3Image{
+    grid-row: 1;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 3px;
+    padding-bottom: 20px;
+}
+
+/*__________________________________________LD_3PLE*/
+
+#LD_3PLE{
+    border-top: dotted;
+    border-bottom: dotted;
+}
+#_3PLE_Grid_Container{
+    max-height: 1200px;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-rows: 480px 600px;
+    margin: 0 auto;
+    margin-bottom: -90px;
+}
+#_3PLE_Images{
+    grid-column: 1/1;
+    grid-row: 1;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 240px 260px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#_3PLE1Image{
+    grid-row: 1;
+}
+#_3PLE2Image{
+    margin-top: 20px;
+    grid-row: 2;
+}
+#_3PLE_Images img{
+    height: 200px;
+    margin: 0 auto;
+}
+#_3PLE_Grid_Container_Responsibilities{
+    grid-column: 1/1;
+    grid-row: 2;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin: 0 auto;
+}
+#LD_3PLE_Responsibilities{
+    grid-row: 2;
+    margin: 0 auto;
+    max-width: 350px;
+    max-height: 350px;
+    margin-top: -120px;
+}
+#LD_3PLE_Responsibilities h5{
+    font-size: 18px;
+    text-align: center;
+}
+#LD_3PLE_Responsibilities li{
+    font-size: 15px;
+}
+#_3PLE3Image{
+    grid-row:1;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+/*_________________________________________LD_Portal_2*/
+
+#LD_Portal_2{
+    border-top: dotted;
+    border-bottom: dotted;
+}
+#Portal_2_Grid_Container{
+    max-height: 1300px;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-rows: 640px 600px;
+    margin: 0 auto;
+    margin-bottom: -100px;
+}
+#Portal_2_Images{
+    grid-column: 1/1;
+    grid-row: 1;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 240px 260px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#Portal_2_1Image{
+    grid-row: 1;
+}
+#Portal_2_2Image{
+    padding-top: 0px;
+    grid-row: 2;
+}
+#Portal_2_Images img{
+    height: 200px;
+    margin: 0 auto;
+}
+#Portal_2_Grid_Container_Responsibilities{
+    grid-column: 1/1;
+    grid-row: 2;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin: 0 auto;
+    margin-top: -150px;
+}
+#LD_Portal_2_Responsibilities{
+    grid-row: 2;
+    margin: 0 auto;
+    max-width: 350px;
+    max-height: 350px;
+    margin-top: -40px;
+}
+#LD_Portal_2_Responsibilities h5{
+    font-size: 18px;
+    text-align: center;
+    margin-top: -20px;
+}
+#LD_Portal_2_Responsibilities li{
+    font-size: 15px;
+}
+#Portal_2_3Image{
+    grid-row: 1;
+    height: 275px;
+    margin: 0 auto;
+}
+
+/*_______________________________________LD_Dungeon_Delver*/
+
+#LD_Dungeon_Delver{
+    border-top: dotted;
+    border-bottom: dotted;
+}
+#Dungeon_Delver_Grid_Container{
+    max-height: 1200px;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-rows: 480px 600px;
+    margin: 0 auto;
+    margin-bottom: -100px;
+}
+#Dungeon_Delver_Images{
+    grid-column: 1/1;
+    grid-row: 1;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 240px 260px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#Dungeon_Delver_1Image{
+    grid-row: 1;
+}
+#Dungeon_Delver_2Image{
+    margin-top: 20px;
+    grid-row: 2;
+}
+#Dungeon_Delver_Images img{
+    height: 200px;
+    margin: 0 auto;
+}
+#Dungeon_Delver_Grid_Container_Responsibilities{
+    grid-column: 1/1;
+    grid-row: 2;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin: 0 auto;
+}
+#LD_Dungeon_Delver_Responsibilities{
+    grid-row: 2;
+    margin: 0 auto;
+    max-width: 500px;
+    max-height: 350px;
+    margin-top: -30px;
+}
+#LD_Dungeon_Delver_Responsibilities h5{
+    font-size: 18px;
+    text-align: center;
+    margin-top: -30px;
+}
+#LD_Dungeon_Delver_Responsibilities li{
+    font-size: 15px;
+}
+#Dungeon_Delver_3Image{
+    grid-row: 1;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+                                            /*Resume 825*/
+#ResumeContent{
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+#Pat_Sandberg_Resume{
+    margin: 0 auto;
+    width: 640px;
+
+
+    scale: .7;
+    margin-top: -275px;
+    margin-left: -130px;
+    margin-bottom: -270px;
 }
 }
