@@ -608,6 +608,9 @@ h2{
 #Pat_Sandberg_Resume{
     margin: 0 auto;
 }
+iframe{
+    display: block;
+}
 
 
                             /* ~~~Resizing the content for half-width page(1650px)~~~ */
@@ -2432,11 +2435,5 @@ h2{
 #Pat_Sandberg_Resume{
     margin: 0 auto;
     width: 640px;
-
-
-    scale: .7;
-    margin-top: -275px;
-    margin-left: -130px;
-    margin-bottom: -270px;
 }
 }
