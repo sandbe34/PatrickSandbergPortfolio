@@ -607,10 +607,12 @@ h2{
 }
 #Pat_Sandberg_Resume{
     margin: 0 auto;
-    height: 2085px;
+    height: 1075px;
+    
 }
 iframe{
     display: block;
+    
 }
 
 
@@ -1182,7 +1184,7 @@ h2{
     margin: 0 auto;
     
     width: 650px;
-    height: 1700px;
+    height: 880px;
 }
 }
 
@@ -1778,7 +1780,7 @@ h2{
     margin: 0 auto;
     
     width: 650px;
-    height: 1700px;
+    height: 880px;
 }
 }
 
@@ -2447,7 +2449,7 @@ h2{
 #Pat_Sandberg_Resume{
     margin: 0 auto;
     width: 400px;
-    height: 1050px;
+    height: 560px;
    
 }
 }
